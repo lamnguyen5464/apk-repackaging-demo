@@ -1,3 +1,3 @@
-rm -rf extracted_apk || rm -rf repackaged.apk || rm -rf signed-apk ||
-mkdir extracted_apk &&
-apktool d origin.apk -o extracted_apk
+rm -rf _extracted_apk || rm -rf _repackaged.apk || rm -rf resigned-apk ||
+mkdir _extracted_apk &&
+apktool d origin.apk -o _extracted_apk
